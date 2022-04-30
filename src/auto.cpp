@@ -1,11 +1,12 @@
 // Modern C++
+// 4/26/2022
 // auto
 
 #include <iostream>
 #include <typeinfo>
 
 template<class T, class U>
-auto add(T t, U u) { return t + u; } // the return type is the type of operator+(T, U)
+double add(T t, U u) { return t + u; } // the return type is the type of operator+(T, U)
 
 int main(int argc, char* argv[])
 {
