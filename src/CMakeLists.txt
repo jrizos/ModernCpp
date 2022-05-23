@@ -14,6 +14,7 @@ add_executable(auto auto.cpp)
 add_executable(constexpr constexpr.cpp)
 add_executable(ifswitch ifswitch.cpp)
 add_executable(initializer initializer.cpp)
+add_executable(rangefor rangefor.cpp)
 
 # End of File
 

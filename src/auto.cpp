@@ -17,6 +17,9 @@ int main(int argc, char* argv[])
 
     const std::type_info& t = typeid(a);
     std::cout << t.name() << std::endl;
+
+    const std::type_info& z = typeid(b);
+    std::cout << z.name() << std::endl;
 }
 
 // End of File
